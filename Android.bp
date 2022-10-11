@@ -1,12 +1,12 @@
 android_app_import {
-	name: "CameraGo",
+	name: "GoogleCameraGo",
 	owner: "google",
-	apk: "CameraGo.apk",
+	apk: "prebuilt/Camera.apk",
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
 	},
 	privileged: true,
 	product_specific: true,
-	overrides: ["Camera", "Camera2", "Snap"],
+	overrides: ["Camera", "Camera2", "CameraGo", "GoogleCamera", "GrapheneCamera", "Snap"],
 }
