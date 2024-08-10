@@ -31,3 +31,7 @@ AndroidRuntime: java.lang.IllegalArgumentException: Error type OPEN_SETTINGS_GAL
 > install Gallery ( https://play.google.com/store/apps/details?id=com.google.android.apps.photosgo )
 > or 
 > install Photos ( https://play.google.com/store/apps/details?id=com.google.android.apps.photos )
+
+
+
+https://www.virustotal.com/gui/file/f226b2531076fe08cc943232d18bcc820aee0f6825fdaba31df43e46a3429f6d
