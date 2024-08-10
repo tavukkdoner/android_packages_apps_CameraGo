@@ -15,7 +15,7 @@
 $(call inherit-product, packages/apps/CameraGo/config.mk)
 ```
 
-# Crash when click image on camera app
+# Crash that occurs when trying to view a photo taken
 
 ### error.log
 ```
