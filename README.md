@@ -1,13 +1,16 @@
-### Clone this repo with following commands
+### Add in local manifest
 
 ```
-git clone --depth=1 -b original https://github.com/GhostMaster69-dev/android_packages_apps_CameraGo.git packages/apps/CameraGo
+ <remote  name="tavukkdoner"
+           fetch="https://github.com/tavukkdoner"
+           revision="lineage-21" />
+
+<project path="packages/apps/CameraGo" name="android_packages_apps_CameraGo" remote="tavukkdoner" revision="inherit" />
 ```
 
-### Add following packages in device tree
+### Add following in device.mk
 
 ```
 # Google Camera Lite
-PRODUCT_PACKAGES += \
-       GoogleCameraGo
+$(call inherit-product, packages/apps/CameraGo/config.mk)
 ```
